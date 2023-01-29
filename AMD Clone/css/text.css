@@ -1,0 +1,508 @@
+body{
+	width:100%;
+	margin:0 auto;
+	overflow-x:hidden;
+}
+.hero_section{
+    float: left;
+    width: 100%;
+}
+.hero_header{
+    float: left;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.head_top{
+    float:right;
+    width:30%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:13px;
+    font-weight: 400;
+    height:50px;
+    
+}
+.head_list li{
+    display: inline;
+    text-decoration: none;
+    padding:15px;
+    
+}
+.head_bottom{
+    float:left;
+    width:100%;
+}
+.head_bottom1{
+    float:left;
+    width:100%;
+}
+.head_bottom1left{
+    float:left;
+    width:10%;
+    color: white;
+}
+.head_bottom1left img{
+    color: white;
+}
+.head_bottom1right{
+    float:left;
+    width:20%;
+}
+i.fa-sharp.fa-solid.fa-magnifying-glass {
+    padding: 0em 0.5em;
+}
+.hero_bg{
+    float: left;
+    width: 100%;
+}
+#btn1{
+    background-color:black;
+    color: white;
+    border-color: black;
+}
+#btn1:hover{
+    background-color: white;
+    color: black;
+
+}
+hr{
+    width: 100%;
+    color: grey;
+}
+.head_bottom2{
+    float:left;
+    width:100%;
+    background-image: url('../images/headerimage.jpg');
+    height:435px;
+    background-repeat: no-repeat;
+}
+.headerimagetext {
+    float: left;
+    width: 50%;
+    background-color: rgba(0,0,0,0.5);
+    height: 200px;
+    padding: 0em 7em;
+    margin: 8em 0em;
+  }
+  .headerimagetext h3 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size:28px;
+    font-weight:800;
+    margin-bottom: 0;
+  }
+  .headerimagetext h4 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size:24px;
+    font-weight:200;
+    margin-top: 0;
+  }
+  .btn2 {
+    background-color: transparent;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:16px;
+    font-weight:800;
+    text-transform: uppercase;
+    padding:0.5em 1em;
+  }
+  .btn2:hover{
+    background-color:grey;
+    color:white;
+    border:2px solid black;
+}
+/**********************************************************header finished ***************************************************************************/
+.series_section{
+    float:left;
+    width:100%;
+}
+.series_image_section{
+    float:left;
+    width:100%;
+}
+.series_image1{
+    float:left;
+    width:33%;
+}
+.series_image2{
+    float:left;
+    width:33%;
+}
+.series_image3{
+    float:left;
+    width:33%;
+}
+#simg{
+    width:600px;
+    height:350px;
+}
+.series_image_section h3{
+    font-family: 'Noto Sans', sans-serif;
+    font-size:20px;
+    font-weight:500;
+    margin-bottom: 0.2em;
+    padding: 0em 3em;
+}
+.series_image_section h4{
+    font-family: 'Noto Sans', sans-serif;
+    font-size:12px;
+    font-weight:400;
+    margin-top: 0.2em;
+    padding: 0em 5em;
+}
+#seriestext{
+    color: #348dd4;
+}
+#seriestext:hover{
+    color:grey;
+}
+.btn3{
+    float: left;
+    width:35%;
+    color: black;
+    background-color:white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:16px;
+    font-weight:700;
+    border: 2px solid black;
+    padding:0.5em 1.5em;
+    margin-left:3em ;
+    text-transform: uppercase;
+}
+.btn3:hover{
+    color: white;
+    background-color: black;
+}
+#buyon{
+    float: left;
+    width:35%;
+    color:white;
+    background-color:#dd0031;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:16px;
+    font-weight:700;
+    border: 2px solid red;
+    padding:0.5em 1.5em;
+    margin-left: 1em ;
+}
+#buyon:hover{
+    color: white;
+    background-color:red;
+}
+.fa-cart-shopping{
+    margin-right:0.2em;
+}
+/***************************************************************** Series Section Completed************************************************************************/
+.together_section{
+    float:left;
+    width:100%;
+    padding-top:5em;
+}
+.together_image{
+    float:left;
+    width:100%;
+    background-image: url('../images/together.jpg');
+    height:386px;
+    background-repeat: no-repeat;
+}
+.together_text {
+    float: left;
+    width: 60%;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    margin-left: 45em;
+    margin-top: 5em;
+    height: 255px;
+  }
+.btn4{
+    float: left;
+    width:18%;
+    color:white;
+    background-color:transparent;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:16px;
+    font-weight:700;
+    border: 2px solid white;
+    padding:0.5em 1.5em;
+    margin-left:3em ;
+    text-transform: uppercase;
+}
+.btn4:hover{
+    border-color: black;
+    background-color:white;
+    color: black;
+}
+.together_text h3 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    padding-left: 0.5em;
+    margin-bottom: 0.1em;
+  }
+  .together_text h4 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 200;
+    padding-left: 0.5em;
+    margin-top: 0.1em;
+  }
+.blink {
+    animation: blinker 1s linear infinite
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+/*--------------------------------Tech Section Starting************************************/
+.tech_section{
+    float:left;
+    width:100%;
+    background-color: #e1e1e2;
+    padding-top: 5em;
+}
+.tech_layout{
+    float:left;
+    width:100%;
+}
+.tech1{
+    float:left;
+    width:50%;
+}
+.tech2{
+    float:left;
+    width:50%;
+}
+.tech1 img{
+    float: left;
+    width:90%;
+    margin-left: 3em;
+}
+.tech2 img{
+    float:right;
+    width:90%;
+    margin-right: 3em;
+}
+.tech1_text{
+    float:left;
+    width:90%;
+    padding-left: 3em;
+}
+.tech2_text{
+    float:left;
+    width:90%;
+    padding-left: 3em;
+}
+.tech1_text h3,.tech2_text h3{
+    font-family: 'Noto Sans', sans-serif;
+    font-size:20px;
+    font-weight:700;
+    margin-bottom: 0.1em;
+}
+.tech1_text h4,.tech2_text h4{
+    width:90%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:15px;
+    font-weight:500;
+    margin-top: 0.1em;
+}
+.btn5{
+    float: left;
+    width:20%;
+    margin-top:1em;
+    color:black;
+    background-color:transparent;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:16px;
+    font-weight:700;
+    border: 2px solid black;
+    padding:0.5em 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+}
+.btn5:hover{
+    border-color: white;
+    background-color:black;
+    color:white;
+}
+/*----------------------------------------------------- Games--------------------------------------------------------------*/
+.games_section{
+    float:left;
+    width:100%;
+    padding-top:5em;
+}
+.games_layout{
+    float:left;
+    width:100%;
+}
+.games_image{
+    float:left;
+    width:100%;
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.games_image1{
+    float:left;
+    width:33%;
+}
+.games_image1 img{
+    padding-left: 2em;
+}
+.games_image2{
+    float:left;
+    width:33%;
+}
+.games_image2 img{
+    padding-left: 2em;
+}
+.games_image3{
+    float:right;
+    width:33%;
+}
+#gimg{
+    width:585px;
+    height:350px;
+    padding-top:2em;
+}
+.btn6{
+    float: left;
+    width:30%;
+    color:white;
+    background-color:transparent;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:16px;
+    font-weight:700;
+    border: 2px solid white;
+    padding:0.5em 1.5em;
+    margin-top: 2em;
+    text-transform: uppercase;
+}
+.btn6:hover{
+    border-color: black;
+    background-color:white;
+    color: black;
+}
+.games_text1,.games_text2{
+    float: left;
+    width: 100%;
+    color: white;
+    padding-left: 2em;
+}
+.games_text3{
+    float: left;
+    width: 100%;
+    color: white;
+}
+.games_text1 h3,.games_text2 h3,.games_text3 h3{
+    font-family: 'Noto Sans', sans-serif;
+    font-size:25px;
+    font-weight:700;
+    margin-bottom: 0;
+
+}
+.games_text1 h4,.games_text2 h4,.games_text3 h4{
+
+    font-family: 'Noto Sans', sans-serif;
+    font-size:15px;
+    font-weight:400;
+    margin-top: 0;
+}
+/*************************************************************Footer section starts**************************************************************/
+.footer_section{
+    float: left;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.footer_tier1{
+    float: left;
+    width: 100%;
+}
+.footer_tier2 {
+    float: left;
+    width: 80%;
+    padding-left: 15em;
+    padding-top: 5em;
+  }
+.footer_tier1_left{
+float: left;
+width:75%;
+}
+.footer_tier1_left h3{
+    float: left;
+    width:25%;
+    }
+.footer_tier1_left h3{
+    font-family: 'Noto Sans', sans-serif;
+    font-size:16px;
+    font-weight:700;
+    padding: 2em 3em;
+}
+.footer_tier1_right {
+    float: right;
+    width: 25%;
+    font-size: 1.5em;
+}
+  
+.fa-brands, .far {
+    font-weight: 400;
+    padding-left:2em;
+    padding-top:2em;
+  }
+  .fa-solid.fa-chevron-down {
+    margin-top: 3em;
+  }
+  /*************************************************************************   Tier 2  **************************************************************************/
+  .footer_tier2_p1,.footer_tier2_p2,.footer_tier2_p3,.footer_tier2_p4,.footer_tier2_p5{
+
+    float: left;
+    width: 20%;
+
+  }
+  .footer_tier2_p1 h3,.footer_tier2_p2 h3,.footer_tier2_p3 h3,.footer_tier2_p4 h3,.footer_tier2_p5 h3{
+    font-family: 'Noto Sans', sans-serif;
+    font-size:18px;
+    font-weight:700;
+  }
+  .footer_tier2_p1 p,.footer_tier2_p2 p,.footer_tier2_p3 p,.footer_tier2_p4 p,.footer_tier2_p5 p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size:14px;
+    font-weight:400;
+    color:#8e9093;
+  }
+  .footer_tier2_pc{
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    max-width:80%;
+  }
+  .footer_list{
+    float: left;
+    width:100%;
+  }
+  .footer_list li{
+    display: inline;
+    padding: 0em 1em;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:12px;
+    font-weight:400;
+    text-align: center;
+    color:#8e9093;
+  }
+  .footer_tier3 {
+    float: left;
+    width: 60%;
+    padding-left: 23em;
+    padding-top: 2em;
+    color:#8e9093;
+  }
+  .footer_tier4 {
+    float: left;
+    width: 20%;
+    padding-left: 65em;
+    padding-top: 5em;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color:#8e9093;
+  }
