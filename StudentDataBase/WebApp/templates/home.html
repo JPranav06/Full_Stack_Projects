@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+{% load static %}
+<head>
+   <title>Google Forms Clone</title>
+   <meta>
+   </meta>
+   <link rel="stylesheet" type="text/css" href="{% static 'forms.css'%}">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   </link>
+   <script></script>
+
+   <style>
+
+   </style>
+</head>
+<html>
+<body>
+   <form action="userDetailsSave" method="POST">
+       {% csrf_token %}
+      <div class="table_section">
+      <div class="table_layout">
+         <div class="form">
+            <div class="header_section">
+               <h1>Valeo India is hiring Trainees (GET)</h1>
+               <p>We are looking for Engineering Graduates for our Global Technical Centre - Mechanical <br>Division.<br>
+                  Position : GET . Job Location : Navalur,Chennai.<br>
+                  BE / B.Tech ( Mechanical / Automobile / Mechatronics) - with an aggregate of 75%  with no backlogs.<br>
+                  2021 / 2022 batch only.<br/>
+                  Candidates should have their BE/B.Tech consolidated Mark list & Provisional certificate <br/>during the interview process. Immediate Joiners are preferred.<br/>
+                  Good Communication is Mandatory.<br/>
+                  Interested candidates can fill the below details and shortlisted candidates shall be called <br/>on for the interview process shortly.
+               </p>
+               <hr>
+               <div class="mail">
+                  <p>pranavofficial12@gmail.com <span class="coll"> switch account</span>
+                  <p>
+                  <div class="required">* Required</div>
+               </div>
+            </div>
+
+            <div class="name_div">
+               <div class="name"> Name <span class="required">*</span></div>
+               <div class="input_div"> <input type="input" id="name" name="name" placeholder="Your Answer"></div>
+            </div>
+              <div class="email_div">
+               <div class="email"> E-Mail <span class="required">*</span></div>
+               <div class="input_div"> <input type="input" id="email" name="email" placeholder="Enter your email address"></div>
+            </div>
+              <div class="native_div">
+               <div class="native"> Native Place <span class="required">*</span></div>
+               <div class="input_div"> <input type="input" id="native" name="native" placeholder="Your Answer"></div>
+            </div>
+                <div class="nameofcollege_div">
+               <div class="contact"> Name of the College  <span class="required">*</span></div>
+               <div class="input_div"> <input type="input" id="college" name="college" placeholder="Your Answer"></div>
+            </div>
+             <div class="cgpa_div">
+               <div class="cgpa"> CGPA/Aggrigate % in B.E/B.Tech  <span class="required">*</span></div>
+               <div class="input_div"> <input type="input" id="CGPA" name="CGPA" placeholder="Your Answer"></div>
+            </div>
+            <div class="loc_div">
+               <div class="loc"> Location of the College  <span class="required">*</span></div>
+               <div class="input_div"> <input type="input" id="location" name="location" placeholder="Your Answer"></div>
+            </div>
+            <div class="bottom">
+			<div class="buttons"> <button class="btn"> Submit </button></div>
+
+			<div class="page">
+			<div class="lin"><hr></div>
+			<h3> Page 1 of 1</h3>
+			</div>
+			<div class="forms">
+			<h3> clear form</h3></div>
+			</div>
+			<div class="fo1"><p>Never submit passwords through Google Forms</p></div>
+			<div class="fo2"><p>This form was created inside of VALEO</p></div>
+			<div class="fo3"><h3> Google Forms </h3></div>
+            <a href="/" class="btn btn-success" type="button" style="margin-left:16.4em;color:white;background-color:black">List User Details</a>
+         </div>
+
+
+         </div>
+      </div>
+   </div>
+   </form>
+</body>
+</html>
+
+
+ </div>

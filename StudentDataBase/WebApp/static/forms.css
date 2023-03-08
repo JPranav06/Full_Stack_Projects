@@ -1,0 +1,172 @@
+body{
+		margin:0 auto;
+		padding:0 auto;
+background-color:#ccffd6;
+		font-family: 'Roboto', sans-serif;
+}
+.form{
+	height:1100px;
+	width:600px;
+	margin:auto;
+}
+.required{
+	font-size:15px;
+	color:red;
+	width:25%;
+}
+.coll{
+	 color:#00FFFF;
+}
+.mail p{
+	margin:0;
+	width:50%;
+	padding:0em 2em;
+}
+.table_section{
+	float:left;
+	width:100%;
+	margin:0 auto;
+	
+}
+.header_section {
+  height: 340px;
+  width: 100%;
+  color: black;
+  background-color: white;
+  border-radius: 8px;
+  border-top: 8px solid green;
+  margin: 15px;
+  padding: 25px;
+}
+.header_section h1{	
+	font-size:32px;
+font-size:400;}
+
+.header_section p{	
+	font-size:15px;
+font-size:400;}
+.header_section_pc{
+	float:none;
+	width:100%;
+	margin:0 auto;
+	max-width:50%;
+}
+.email_div,.name_div,.dob_div,.native_div,.current_div,.contact_div,.btech_div,.nameofcollege_div,.loc_div,.cgpa_div,.ifemp_div{
+  height:50px;
+  width: 100%;
+  color: black;
+  background-color: white;
+  border-radius: 8px;
+  margin: 15px;
+  padding: 25px;
+}
+.input_div input{
+	width:80%;
+	height:20px;
+	margin-top:1em;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	font-weight:400;
+}
+.btech_div{
+	height:150px;
+  width: 100%;
+  color: black;
+  background-color: white;
+  border-radius: 8px;
+  margin: 15px;
+  padding: 25px;
+}
+.cb ul{
+	float:left;
+	width:100%;
+	padding:0em
+}
+.pass_div,.hoa_div,.emp_div,.rep_div{
+	height:100px;
+  width: 100%;
+  color: black;
+  background-color: white;
+  border-radius: 8px;
+  margin: 15px;
+  padding: 25px;
+}
+.cb ul{
+	float:left;
+	width:100%;
+	padding:0em;
+}
+.bottom {
+  float: left;
+  width: 100%;
+}
+.buttons {
+	width:25%;
+  padding: 0em 1em;
+}
+.btn {
+  color: white;
+  background-color: #0BDA51;
+  padding: 0.5em 1em;
+  border: #0BDA51;
+  font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	font-weight:400;
+}
+.lin hr {
+  border: 3px solid green;
+  margin: -1em -15em;
+  float: left;
+  width: 80%;
+}
+.forms {
+  float: right;
+  width:25%;
+}
+.page{
+	 float: right;
+  width:25%;
+}
+.page h3 {
+  margin: -1.4em -5em;
+  text-align: left;
+  width: 65%;
+    font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	font-weight:400;
+	color:black;
+}
+.forms {
+  float: right;
+  width: 15%;
+  padding: 0;
+  margin: -2.8em -4em;
+   font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	font-weight:400;
+	color:#0BDA51;
+}
+.fo1,.fo2,.fo3{
+	float:left;
+	width:100%;
+	color:grey;
+	
+}
+.fo2,.fo3{
+	text-align:center;
+}
+.fo1 p{
+	padding:0em 1em;
+	font-family: 'Roboto', sans-serif;
+	font-size:13px;
+	font-weight:300;
+}
+.fo2{font-family: 'Roboto', sans-serif;
+	font-size:13px;
+font-weight:300;}
+.fo3{font-family: 'Roboto', sans-serif;
+	font-size:15px;
+font-weight:400;}
