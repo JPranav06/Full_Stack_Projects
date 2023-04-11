@@ -869,3 +869,12 @@ color:#aed9d9;
 .fa.fa-instagram.fa-2x {
   padding-right: 1em;
 }
+
+@media screen and (max-width:600px)
+{
+	.h1{
+		font-size: 600px;
+	}
+}
+
+
